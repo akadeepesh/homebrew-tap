@@ -1,28 +1,28 @@
 class Contextzip < Formula
   desc "Package exactly the right parts of your codebase for any AI tool"
   homepage "https://www.contextzipcli.com"
-  version "0.5.3"
+  version "0.5.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.3/contextzip-0.5.3-darwin-arm64.tar.gz"
-      sha256 "0164ce0dfd7aa02427d0d83c2e343597c60506663fd34ff509e5858f1062fe48"
+      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.4/contextzip-0.5.4-darwin-arm64.tar.gz"
+      sha256 "21dc5c7a318a18858637ac31e2a2e1ff1248b19353d7879cb455dcc265f437cd"
     end
     on_intel do
-      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.3/contextzip-0.5.3-darwin-x64.tar.gz"
-      sha256 "8bed26f7762d8e48008934301f9df8fd36543da304f8a3960788911a8717f119"
+      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.4/contextzip-0.5.4-darwin-x64.tar.gz"
+      sha256 "0c1054651838cc20bc2b2561ed5f3f3e3d0d9e28149d314250babfac06e1659a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.3/contextzip-0.5.3-linux-arm64.tar.gz"
-      sha256 "b107cc99bec3d2abfa54b556c5463121ecaf81a95481e804edf4ea369800ca03"
+      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.4/contextzip-0.5.4-linux-arm64.tar.gz"
+      sha256 "572ed6fc4bbb5b1f515e237118fe967874b6e05ff3607eff7a28a9271d779f43"
     end
     on_intel do
-      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.3/contextzip-0.5.3-linux-x64.tar.gz"
-      sha256 "f64c32dbb6a8fa3d5e82ac0a089f0fce6c1872f549be94257c63d2eaf6110e67"
+      url "https://github.com/akadeepesh/contextzip/releases/download/v0.5.4/contextzip-0.5.4-linux-x64.tar.gz"
+      sha256 "be86ae0d1ea90e5378da51be362b51a822223a41948aa911a9372ed81a82e4f2"
     end
   end
 
